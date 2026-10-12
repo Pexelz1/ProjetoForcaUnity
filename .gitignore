@@ -1,0 +1,48 @@
+# ---- Unity: pastas geradas (cache, nunca vao pro repo) ----
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Os .meta dentro de Assets SEMPRE vao junto (sao os GUIDs das referencias)
+!/[Aa]ssets/**/*.meta
+
+# ---- IDEs ----
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ---- Builds ----
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# ---- Sistema operacional ----
+.DS_Store
+Thumbs.db
+
+# ---- Addressables / autogerados ----
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+crashlytics-build.properties

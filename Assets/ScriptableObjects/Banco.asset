@@ -1,0 +1,321 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89e3024a789a614eaec92376ab40717, type: 3}
+  m_Name: Banco
+  m_EditorClassIdentifier: Assembly-CSharp::BancoDePalavras
+  Palavras:
+  - Texto: LHAMA
+    Categoria: {fileID: 11400000, guid: c1bb8da149c48104c9114b070ed0d1ee, type: 2}
+    Dificuldade: 0
+  - Texto: TARTARUGA
+    Categoria: {fileID: 11400000, guid: c1bb8da149c48104c9114b070ed0d1ee, type: 2}
+    Dificuldade: 1
+  - Texto: GATO
+    Categoria: {fileID: 11400000, guid: c1bb8da149c48104c9114b070ed0d1ee, type: 2}
+    Dificuldade: 0
+  - Texto: CAVALO
+    Categoria: {fileID: 11400000, guid: c1bb8da149c48104c9114b070ed0d1ee, type: 2}
+    Dificuldade: 0
+  - Texto: MACACO
+    Categoria: {fileID: 11400000, guid: c1bb8da149c48104c9114b070ed0d1ee, type: 2}
+    Dificuldade: 0
+  - Texto: CACHORRO
+    Categoria: {fileID: 11400000, guid: c1bb8da149c48104c9114b070ed0d1ee, type: 2}
+    Dificuldade: 0
+  - Texto: ELEFANTE
+    Categoria: {fileID: 11400000, guid: c1bb8da149c48104c9114b070ed0d1ee, type: 2}
+    Dificuldade: 0
+  - Texto: PERNA
+    Categoria: {fileID: 11400000, guid: 9c4a3e1b6d5f7a8c0e2f3d4b5c6a7e8f, type: 2}
+    Dificuldade: 0
+  - Texto: NARIZ
+    Categoria: {fileID: 11400000, guid: 9c4a3e1b6d5f7a8c0e2f3d4b5c6a7e8f, type: 2}
+    Dificuldade: 0
+  - Texto: JOELHO
+    Categoria: {fileID: 11400000, guid: 9c4a3e1b6d5f7a8c0e2f3d4b5c6a7e8f, type: 2}
+    Dificuldade: 0
+  - Texto: CABELO
+    Categoria: {fileID: 11400000, guid: 9c4a3e1b6d5f7a8c0e2f3d4b5c6a7e8f, type: 2}
+    Dificuldade: 0
+  - Texto: BANANA
+    Categoria: {fileID: 11400000, guid: 7a2f1c9e4b3d5f6a8c0e1d2b3a4f5c6d, type: 2}
+    Dificuldade: 0
+  - Texto: LARANJA
+    Categoria: {fileID: 11400000, guid: 7a2f1c9e4b3d5f6a8c0e1d2b3a4f5c6d, type: 2}
+    Dificuldade: 0
+  - Texto: ABACAXI
+    Categoria: {fileID: 11400000, guid: 7a2f1c9e4b3d5f6a8c0e1d2b3a4f5c6d, type: 2}
+    Dificuldade: 0
+  - Texto: MORANGO
+    Categoria: {fileID: 11400000, guid: 7a2f1c9e4b3d5f6a8c0e1d2b3a4f5c6d, type: 2}
+    Dificuldade: 0
+  - Texto: NUVEM
+    Categoria: {fileID: 11400000, guid: 0d5b4f2c7e6a8b9d1f3a4e5c6d7b8f9a, type: 2}
+    Dificuldade: 0
+  - Texto: CHUVA
+    Categoria: {fileID: 11400000, guid: 0d5b4f2c7e6a8b9d1f3a4e5c6d7b8f9a, type: 2}
+    Dificuldade: 0
+  - Texto: VENTO
+    Categoria: {fileID: 11400000, guid: 0d5b4f2c7e6a8b9d1f3a4e5c6d7b8f9a, type: 2}
+    Dificuldade: 0
+  - Texto: TERRA
+    Categoria: {fileID: 11400000, guid: 0d5b4f2c7e6a8b9d1f3a4e5c6d7b8f9a, type: 2}
+    Dificuldade: 0
+  - Texto: PEDRA
+    Categoria: {fileID: 11400000, guid: 0d5b4f2c7e6a8b9d1f3a4e5c6d7b8f9a, type: 2}
+    Dificuldade: 0
+  - Texto: LIVRO
+    Categoria: {fileID: 11400000, guid: 8b3f2d0a5c4e6f7b9d1f2e3c4b5a6d7e, type: 2}
+    Dificuldade: 0
+  - Texto: CHAVE
+    Categoria: {fileID: 11400000, guid: 8b3f2d0a5c4e6f7b9d1f2e3c4b5a6d7e, type: 2}
+    Dificuldade: 0
+  - Texto: CADEIRA
+    Categoria: {fileID: 11400000, guid: 8b3f2d0a5c4e6f7b9d1f2e3c4b5a6d7e, type: 2}
+    Dificuldade: 0
+  - Texto: PANELA
+    Categoria: {fileID: 11400000, guid: 8b3f2d0a5c4e6f7b9d1f2e3c4b5a6d7e, type: 2}
+    Dificuldade: 0
+  - Texto: FUTEBOL
+    Categoria: {fileID: 11400000, guid: 1a2b3c4d5e6f708192a3b4c5d6e7f809, type: 2}
+    Dificuldade: 0
+  - Texto: BASQUETE
+    Categoria: {fileID: 11400000, guid: 1a2b3c4d5e6f708192a3b4c5d6e7f809, type: 2}
+    Dificuldade: 0
+  - Texto: CORRIDA
+    Categoria: {fileID: 11400000, guid: 1a2b3c4d5e6f708192a3b4c5d6e7f809, type: 2}
+    Dificuldade: 0
+  - Texto: BOXE
+    Categoria: {fileID: 11400000, guid: 1a2b3c4d5e6f708192a3b4c5d6e7f809, type: 2}
+    Dificuldade: 0
+  - Texto: PIANO
+    Categoria: {fileID: 11400000, guid: 2b3c4d5e6f708192a3b4c5d6e7f8091a, type: 2}
+    Dificuldade: 0
+  - Texto: TAMBOR
+    Categoria: {fileID: 11400000, guid: 2b3c4d5e6f708192a3b4c5d6e7f8091a, type: 2}
+    Dificuldade: 0
+  - Texto: FLAUTA
+    Categoria: {fileID: 11400000, guid: 2b3c4d5e6f708192a3b4c5d6e7f8091a, type: 2}
+    Dificuldade: 0
+  - Texto: VIOLINO
+    Categoria: {fileID: 11400000, guid: 2b3c4d5e6f708192a3b4c5d6e7f8091a, type: 2}
+    Dificuldade: 0
+  - Texto: CARRO
+    Categoria: {fileID: 11400000, guid: 3c4d5e6f708192a3b4c5d6e7f8091a2b, type: 2}
+    Dificuldade: 0
+  - Texto: MOTO
+    Categoria: {fileID: 11400000, guid: 3c4d5e6f708192a3b4c5d6e7f8091a2b, type: 2}
+    Dificuldade: 0
+  - Texto: BARCO
+    Categoria: {fileID: 11400000, guid: 3c4d5e6f708192a3b4c5d6e7f8091a2b, type: 2}
+    Dificuldade: 0
+  - Texto: BICICLETA
+    Categoria: {fileID: 11400000, guid: 3c4d5e6f708192a3b4c5d6e7f8091a2b, type: 2}
+    Dificuldade: 0
+  - Texto: CAMELO
+    Categoria: {fileID: 11400000, guid: c1bb8da149c48104c9114b070ed0d1ee, type: 2}
+    Dificuldade: 1
+  - Texto: MORCEGO
+    Categoria: {fileID: 11400000, guid: c1bb8da149c48104c9114b070ed0d1ee, type: 2}
+    Dificuldade: 1
+  - Texto: FORMIGA
+    Categoria: {fileID: 11400000, guid: c1bb8da149c48104c9114b070ed0d1ee, type: 2}
+    Dificuldade: 1
+  - Texto: CARANGUEJO
+    Categoria: {fileID: 11400000, guid: c1bb8da149c48104c9114b070ed0d1ee, type: 2}
+    Dificuldade: 1
+  - Texto: ESQUILO
+    Categoria: {fileID: 11400000, guid: c1bb8da149c48104c9114b070ed0d1ee, type: 2}
+    Dificuldade: 1
+  - Texto: COTOVELO
+    Categoria: {fileID: 11400000, guid: 9c4a3e1b6d5f7a8c0e2f3d4b5c6a7e8f, type: 2}
+    Dificuldade: 1
+  - Texto: GARGANTA
+    Categoria: {fileID: 11400000, guid: 9c4a3e1b6d5f7a8c0e2f3d4b5c6a7e8f, type: 2}
+    Dificuldade: 1
+  - Texto: TORNOZELO
+    Categoria: {fileID: 11400000, guid: 9c4a3e1b6d5f7a8c0e2f3d4b5c6a7e8f, type: 2}
+    Dificuldade: 1
+  - Texto: CALCANHAR
+    Categoria: {fileID: 11400000, guid: 9c4a3e1b6d5f7a8c0e2f3d4b5c6a7e8f, type: 2}
+    Dificuldade: 1
+  - Texto: GOIABA
+    Categoria: {fileID: 11400000, guid: 7a2f1c9e4b3d5f6a8c0e1d2b3a4f5c6d, type: 2}
+    Dificuldade: 1
+  - Texto: ABACATE
+    Categoria: {fileID: 11400000, guid: 7a2f1c9e4b3d5f6a8c0e1d2b3a4f5c6d, type: 2}
+    Dificuldade: 1
+  - Texto: AMEIXA
+    Categoria: {fileID: 11400000, guid: 7a2f1c9e4b3d5f6a8c0e1d2b3a4f5c6d, type: 2}
+    Dificuldade: 1
+  - Texto: JABUTICABA
+    Categoria: {fileID: 11400000, guid: 7a2f1c9e4b3d5f6a8c0e1d2b3a4f5c6d, type: 2}
+    Dificuldade: 1
+  - Texto: CACHOEIRA
+    Categoria: {fileID: 11400000, guid: 0d5b4f2c7e6a8b9d1f3a4e5c6d7b8f9a, type: 2}
+    Dificuldade: 1
+  - Texto: NEBLINA
+    Categoria: {fileID: 11400000, guid: 0d5b4f2c7e6a8b9d1f3a4e5c6d7b8f9a, type: 2}
+    Dificuldade: 1
+  - Texto: FLORESTA
+    Categoria: {fileID: 11400000, guid: 0d5b4f2c7e6a8b9d1f3a4e5c6d7b8f9a, type: 2}
+    Dificuldade: 1
+  - Texto: MONTANHA
+    Categoria: {fileID: 11400000, guid: 0d5b4f2c7e6a8b9d1f3a4e5c6d7b8f9a, type: 2}
+    Dificuldade: 1
+  - Texto: MARTELO
+    Categoria: {fileID: 11400000, guid: 8b3f2d0a5c4e6f7b9d1f2e3c4b5a6d7e, type: 2}
+    Dificuldade: 1
+  - Texto: VASSOURA
+    Categoria: {fileID: 11400000, guid: 8b3f2d0a5c4e6f7b9d1f2e3c4b5a6d7e, type: 2}
+    Dificuldade: 1
+  - Texto: ALICATE
+    Categoria: {fileID: 11400000, guid: 8b3f2d0a5c4e6f7b9d1f2e3c4b5a6d7e, type: 2}
+    Dificuldade: 1
+  - Texto: LANTERNA
+    Categoria: {fileID: 11400000, guid: 8b3f2d0a5c4e6f7b9d1f2e3c4b5a6d7e, type: 2}
+    Dificuldade: 1
+  - Texto: HANDEBOL
+    Categoria: {fileID: 11400000, guid: 1a2b3c4d5e6f708192a3b4c5d6e7f809, type: 2}
+    Dificuldade: 1
+  - Texto: XADREZ
+    Categoria: {fileID: 11400000, guid: 1a2b3c4d5e6f708192a3b4c5d6e7f809, type: 2}
+    Dificuldade: 1
+  - Texto: CICLISMO
+    Categoria: {fileID: 11400000, guid: 1a2b3c4d5e6f708192a3b4c5d6e7f809, type: 2}
+    Dificuldade: 1
+  - Texto: MARATONA
+    Categoria: {fileID: 11400000, guid: 1a2b3c4d5e6f708192a3b4c5d6e7f809, type: 2}
+    Dificuldade: 1
+  - Texto: PANDEIRO
+    Categoria: {fileID: 11400000, guid: 2b3c4d5e6f708192a3b4c5d6e7f8091a, type: 2}
+    Dificuldade: 1
+  - Texto: TROMBONE
+    Categoria: {fileID: 11400000, guid: 2b3c4d5e6f708192a3b4c5d6e7f8091a, type: 2}
+    Dificuldade: 1
+  - Texto: SANFONA
+    Categoria: {fileID: 11400000, guid: 2b3c4d5e6f708192a3b4c5d6e7f8091a, type: 2}
+    Dificuldade: 1
+  - Texto: CAVAQUINHO
+    Categoria: {fileID: 11400000, guid: 2b3c4d5e6f708192a3b4c5d6e7f8091a, type: 2}
+    Dificuldade: 1
+  - Texto: NAVIO
+    Categoria: {fileID: 11400000, guid: 3c4d5e6f708192a3b4c5d6e7f8091a2b, type: 2}
+    Dificuldade: 1
+  - Texto: TRATOR
+    Categoria: {fileID: 11400000, guid: 3c4d5e6f708192a3b4c5d6e7f8091a2b, type: 2}
+    Dificuldade: 1
+  - Texto: PATINETE
+    Categoria: {fileID: 11400000, guid: 3c4d5e6f708192a3b4c5d6e7f8091a2b, type: 2}
+    Dificuldade: 1
+  - Texto: FOGUETE
+    Categoria: {fileID: 11400000, guid: 3c4d5e6f708192a3b4c5d6e7f8091a2b, type: 2}
+    Dificuldade: 1
+  - Texto: CAPIVARA
+    Categoria: {fileID: 11400000, guid: c1bb8da149c48104c9114b070ed0d1ee, type: 2}
+    Dificuldade: 2
+  - Texto: PERERECA
+    Categoria: {fileID: 11400000, guid: c1bb8da149c48104c9114b070ed0d1ee, type: 2}
+    Dificuldade: 2
+  - Texto: CARRAPATO
+    Categoria: {fileID: 11400000, guid: c1bb8da149c48104c9114b070ed0d1ee, type: 2}
+    Dificuldade: 2
+  - Texto: LAGOSTIM
+    Categoria: {fileID: 11400000, guid: c1bb8da149c48104c9114b070ed0d1ee, type: 2}
+    Dificuldade: 2
+  - Texto: CARTILAGEM
+    Categoria: {fileID: 11400000, guid: 9c4a3e1b6d5f7a8c0e2f3d4b5c6a7e8f, type: 2}
+    Dificuldade: 2
+  - Texto: DIAFRAGMA
+    Categoria: {fileID: 11400000, guid: 9c4a3e1b6d5f7a8c0e2f3d4b5c6a7e8f, type: 2}
+    Dificuldade: 2
+  - Texto: TRAQUEIA
+    Categoria: {fileID: 11400000, guid: 9c4a3e1b6d5f7a8c0e2f3d4b5c6a7e8f, type: 2}
+    Dificuldade: 2
+  - Texto: ESTERNO
+    Categoria: {fileID: 11400000, guid: 9c4a3e1b6d5f7a8c0e2f3d4b5c6a7e8f, type: 2}
+    Dificuldade: 2
+  - Texto: GRAVIOLA
+    Categoria: {fileID: 11400000, guid: 7a2f1c9e4b3d5f6a8c0e1d2b3a4f5c6d, type: 2}
+    Dificuldade: 2
+  - Texto: JENIPAPO
+    Categoria: {fileID: 11400000, guid: 7a2f1c9e4b3d5f6a8c0e1d2b3a4f5c6d, type: 2}
+    Dificuldade: 2
+  - Texto: ARATICUM
+    Categoria: {fileID: 11400000, guid: 7a2f1c9e4b3d5f6a8c0e1d2b3a4f5c6d, type: 2}
+    Dificuldade: 2
+  - Texto: BACURI
+    Categoria: {fileID: 11400000, guid: 7a2f1c9e4b3d5f6a8c0e1d2b3a4f5c6d, type: 2}
+    Dificuldade: 2
+  - Texto: ESTALACTITE
+    Categoria: {fileID: 11400000, guid: 0d5b4f2c7e6a8b9d1f3a4e5c6d7b8f9a, type: 2}
+    Dificuldade: 2
+  - Texto: PENHASCO
+    Categoria: {fileID: 11400000, guid: 0d5b4f2c7e6a8b9d1f3a4e5c6d7b8f9a, type: 2}
+    Dificuldade: 2
+  - Texto: MANGUEZAL
+    Categoria: {fileID: 11400000, guid: 0d5b4f2c7e6a8b9d1f3a4e5c6d7b8f9a, type: 2}
+    Dificuldade: 2
+  - Texto: ESTIAGEM
+    Categoria: {fileID: 11400000, guid: 0d5b4f2c7e6a8b9d1f3a4e5c6d7b8f9a, type: 2}
+    Dificuldade: 2
+  - Texto: TUNDRA
+    Categoria: {fileID: 11400000, guid: 0d5b4f2c7e6a8b9d1f3a4e5c6d7b8f9a, type: 2}
+    Dificuldade: 2
+  - Texto: BIGORNA
+    Categoria: {fileID: 11400000, guid: 8b3f2d0a5c4e6f7b9d1f2e3c4b5a6d7e, type: 2}
+    Dificuldade: 2
+  - Texto: CANDEEIRO
+    Categoria: {fileID: 11400000, guid: 8b3f2d0a5c4e6f7b9d1f2e3c4b5a6d7e, type: 2}
+    Dificuldade: 2
+  - Texto: ESTILINGUE
+    Categoria: {fileID: 11400000, guid: 8b3f2d0a5c4e6f7b9d1f2e3c4b5a6d7e, type: 2}
+    Dificuldade: 2
+  - Texto: ENXADA
+    Categoria: {fileID: 11400000, guid: 8b3f2d0a5c4e6f7b9d1f2e3c4b5a6d7e, type: 2}
+    Dificuldade: 2
+  - Texto: ESGRIMA
+    Categoria: {fileID: 11400000, guid: 1a2b3c4d5e6f708192a3b4c5d6e7f809, type: 2}
+    Dificuldade: 2
+  - Texto: HIPISMO
+    Categoria: {fileID: 11400000, guid: 1a2b3c4d5e6f708192a3b4c5d6e7f809, type: 2}
+    Dificuldade: 2
+  - Texto: TRIATLO
+    Categoria: {fileID: 11400000, guid: 1a2b3c4d5e6f708192a3b4c5d6e7f809, type: 2}
+    Dificuldade: 2
+  - Texto: CANOAGEM
+    Categoria: {fileID: 11400000, guid: 1a2b3c4d5e6f708192a3b4c5d6e7f809, type: 2}
+    Dificuldade: 2
+  - Texto: BERIMBAU
+    Categoria: {fileID: 11400000, guid: 2b3c4d5e6f708192a3b4c5d6e7f8091a, type: 2}
+    Dificuldade: 2
+  - Texto: CLARINETE
+    Categoria: {fileID: 11400000, guid: 2b3c4d5e6f708192a3b4c5d6e7f8091a, type: 2}
+    Dificuldade: 2
+  - Texto: SAXOFONE
+    Categoria: {fileID: 11400000, guid: 2b3c4d5e6f708192a3b4c5d6e7f8091a, type: 2}
+    Dificuldade: 2
+  - Texto: BANDOLIM
+    Categoria: {fileID: 11400000, guid: 2b3c4d5e6f708192a3b4c5d6e7f8091a, type: 2}
+    Dificuldade: 2
+  - Texto: JANGADA
+    Categoria: {fileID: 11400000, guid: 3c4d5e6f708192a3b4c5d6e7f8091a2b, type: 2}
+    Dificuldade: 2
+  - Texto: SUBMARINO
+    Categoria: {fileID: 11400000, guid: 3c4d5e6f708192a3b4c5d6e7f8091a2b, type: 2}
+    Dificuldade: 2
+  - Texto: CHARRETE
+    Categoria: {fileID: 11400000, guid: 3c4d5e6f708192a3b4c5d6e7f8091a2b, type: 2}
+    Dificuldade: 2
+  - Texto: CARAVELA
+    Categoria: {fileID: 11400000, guid: 3c4d5e6f708192a3b4c5d6e7f8091a2b, type: 2}
+    Dificuldade: 2
