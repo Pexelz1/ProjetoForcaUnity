@@ -832,7 +832,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1362612262}
+  - {fileID: 1068809204}
   - {fileID: 958406917}
   - {fileID: 1159728328}
   - {fileID: 1658310733}
@@ -1032,11 +1032,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1068809204}
+  - component: {fileID: 1068809208}
   - component: {fileID: 1068809207}
   - component: {fileID: 1068809206}
   - component: {fileID: 1068809205}
   m_Layer: 5
-  m_Name: Caixa
+  m_Name: CaixaLinhas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1049,12 +1050,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1068809203}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1362612262}
+  m_Father: {fileID: 889828611}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1125,6 +1126,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1068809203}
   m_CullTransparentMesh: 1
+--- !u!114 &1068809208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068809203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a31910af30419f459a970801a1a8e70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LinhasController
+  Caixa: {fileID: 1068809203}
+  Linha: {fileID: 1364229013637814051, guid: e3d61f942454a6746bf2420ff6937f69, type: 3}
 --- !u!1 &1132459819
 GameObject:
   m_ObjectHideFlags: 0
@@ -1346,42 +1361,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1362612261
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1362612262}
-  m_Layer: 5
-  m_Name: Linhas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1362612262
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1362612261}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1068809204}
-  m_Father: {fileID: 889828611}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1429573976
 GameObject:
   m_ObjectHideFlags: 0
@@ -1426,15 +1405,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7d9eb3cada1634db8195c20e13623a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ForcaGame
-  Caixa: {fileID: 1068809203}
   Boneco: {fileID: 958406916}
   Categoria: {fileID: 1758446242}
-  Linha: {fileID: 1364229013637814051, guid: e3d61f942454a6746bf2420ff6937f69, type: 3}
   BancoPalavras: {fileID: 11400000, guid: e1c2d3183f12dec4babfe2cbb35b1b0f, type: 2}
   EnforcadoController: {fileID: 781912401}
   Modal: {fileID: 1686088405}
   Dica: {fileID: 1658310732}
-  PadController: {fileID: 0}
+  PadController: {fileID: 1159728332}
+  LinhasController: {fileID: 1068809208}
 --- !u!1 &1458191139
 GameObject:
   m_ObjectHideFlags: 0

@@ -25,10 +25,10 @@ public class ForcaGame : MonoBehaviour
     GameObject Dica;
 
     [SerializeField]
-    GameObject PadController;
+    PadController PadController;
 
     [SerializeField]
-    GameObject LinhasController;
+    LinhasController LinhasController;
 
     private Palavra _palavra;
     private string _palavraTexto;
@@ -39,6 +39,11 @@ public class ForcaGame : MonoBehaviour
         _palavra = BancoPalavras.SorteiePorDificuldade(Configuracoes.Dificuldade);
         Categoria.text = _palavra.Categoria.Nome.ToUpper();
         _palavraTexto = _palavra.TextoMaiusculo;
+
+        PadController.LetraClicada += VerifiqueLetra;
+
+        LinhasController.CrieLinhasForca(_palavraTexto);
+        PadController.CriePad();
     }
 
     private void Update()
@@ -55,20 +60,11 @@ public class ForcaGame : MonoBehaviour
         }
     }
 
-    public void VerifiqueLetra(GameObject letraInstance, string letra)
+    public void VerifiqueLetra(string letra)
     {
-        List<ConfiguracaoLinha> configLinhasEncontradas = _configLinhas
-            .Where(c => string.Compare(c.Letra, letra, System.StringComparison.OrdinalIgnoreCase) == 0).ToList();
+        bool letraEncontrada = LinhasController.Revele(letra);
 
-        foreach (ConfiguracaoLinha configLinhaPreenchida in configLinhasEncontradas)
-        {
-            configLinhaPreenchida.PreenchaLetraLinha();
-        }
-
-        letraInstance.GetComponent<Button>().enabled = false;
-        letraInstance.GetComponent<Image>().color = new Color32(116, 116, 116, 255);
-
-        if (configLinhasEncontradas.Count() == 0)
+        if (!letraEncontrada)
         {
             VerifiqueDerrota();
             return;
@@ -79,7 +75,7 @@ public class ForcaGame : MonoBehaviour
 
     public void VerifiqueVitoria()
     {
-        if (_configLinhas.All(confL => confL.LinhaPreenchida))
+        if (LinhasController.TodasPreenchidas())
         {
             OculteCampos();
             Modal.AbrirModal(EstadoJogo.VITORIA);
@@ -99,16 +95,8 @@ public class ForcaGame : MonoBehaviour
 
     public void FornecaDica()
     {
-        List<ConfiguracaoLinha> linhasNaoPreenchidas = _configLinhas.Where(configL => !configL.LinhaPreenchida).ToList();
-
-        int linhaAleatoria = Random.Range(0, linhasNaoPreenchidas.Count);
-
-        ConfiguracaoLinha linhaNaoPreenchidaAleatoria = linhasNaoPreenchidas[linhaAleatoria];
-
-        linhaNaoPreenchidaAleatoria.PreenchaLetraLinha();
-
+        LinhasController.ReveleLinhaAleatoria();
         VerifiqueVitoria();
-
         Dica.GetComponent<Button>().interactable = false;
     }
 
